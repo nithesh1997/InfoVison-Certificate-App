@@ -1,0 +1,476 @@
+{
+  "Welcome to React": "Welcome to React and react-i18next",
+  "footer": {
+    "copyRightsMessage": "Derechos Reservados"
+  },
+  "Common": {
+    "Certificate Management Text": "Portal de certificados",
+    "Cap Lock Text": "Bloqueo de mayúsculas está activado!",
+    "Alert Message": {
+      "Error": {
+        "Topic": "Sesión caducada o no autorizada",
+        "Message": "El usuario será redirigido a la página de inicio de sesión"
+      }
+    },
+    "Components": {
+      "File Upload": {
+        "Title": "Importar CSR o archivo de texto",
+        "Active Drop": "Cargar archivos",
+        "File Neutral": {
+          "Size Limit": "Límite de tamaño: 60 MB",
+          "File Type": "Cargar el archivo <1>.csr</1> o <2>.txt</2>"
+        },
+        "File Ok Details": {
+          "File Info Text": "El {{fileName}}.{{extention}} está seleccionado",
+          "File Size Text": "Tamaño del archivo: {{fileSize}}"
+        },
+        "File Format Error": {
+          "File Info Text": "El formato de archivo <1>.{{error}}</1> no está permitido!",
+          "File Extention Text": "Formato esperado: <1>.csr</1>"
+        },
+        "File Size Error": {
+          "File Info Text": "El tamaño del archivo es mayor que el límite.",
+          "Upload File Size": "Tamaño del archivo cargado: {{fileSize}}",
+          "Size Limit": "Tamaño del archivo: 60 MB"
+        },
+        "Multi File Error": {
+          "Drop File Text": "Cargar Archivos",
+          "Multi File Not Allow": "No se permite la carga de múltiples archivos",
+          "Single File Type": "Archivo único con formato <1>.csr</1> o <2>.txt</2>"
+        },
+        "Button Text": {
+          "Select File Text": "Seleccionar Archivo",
+          "Select Different File Text": "Seleccione un archivo diferente"
+        }
+      }
+    },
+    "Fields": {
+      "Customer Name": {
+        "Title": "Nombre del cliente",
+        "Tool Tip": "No agregue ningún espacio. La herramienta no se romperá y su certificado se generará pero no se le mostrará.",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Cliente es un campo obligatorio.",
+            "Must Atleast Character": "Cliente debe tener al menos 4 caracteres.",
+            "Must Not Exceed Character": "Cliente no debe exceder los 64 caracteres.",
+            "Alaphanumeric Character": "El valor debe ser caracteres alfanuméricos y no se permiten espacios."
+          }
+        }
+      },
+      "Client Fqdn": {
+        "Title": "Nombre de dominio completo",
+        "Tool Tip": {
+          "Title": "La dirección electronica de la puerta de enlace debe ser cualquiera de las siguientes:",
+          "List": {
+            "Fqdn Example": "Nombre válido de dominio completo <0>(FQDN)</0> como <1>invisinet.client-name.com</1>."
+          }
+        },
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La dirección FQDN es un campo obligatorio.",
+            "Invalid": "La dirección FQDN no es válida"
+          }
+        }
+      }
+    },
+    "Button Generic": {
+      "Btn Reset": "Reiniciar",
+      "Btn Submit": "Enviar"
+    }
+  },
+  "Navigation": {
+    "Home": {
+      "Title": "Inicio"
+    },
+    "Certificate Authority Configuration": {
+      "Title": "Configuración de la autoridad de certificación"
+    },
+    "Invisipoint Client": {
+      "Title": "Cliente punto invisible"
+    },
+    "Invisipoint Enforcer": {
+      "Title": "Ejecutor punto invisible"
+    },
+    "IEM": {
+      "Title": "IEM"
+    },
+    "Active Directory Dia": {
+      "Title": "Directorio Activo DIA"
+    },
+    "Invisigate": {
+      "Title": "Invisigate"
+    },
+    "Controller": {
+      "Title": "Controller"
+    },
+    "Invisigate Or Controller": {
+      "Title": "Invisigate/Controller"
+    },
+    "Configure CSR": {
+      "Title": "Configurar CSR Defaults"
+    },
+    "Manage Invisipoints": {
+      "Title": "Administrar Invisipoints"
+    },
+    "Manage Users": {
+      "Title": "Administrar usuarios"
+    }
+  },
+  "Pages": {
+    "Certificate Authority Configuration": {
+      "Title": "Configuración de la autoridad de certificación",
+      "Toggle Title": "Generar certificado usando: ",
+      "Private Key Label": "Infraestructura de clave privada",
+      "Windows CA Label": "Autoridad de certificación de Windows",
+      "Windows CA Form": {
+        "Note To User": "*Proporcione configuraciones adicionales para la Autoridad de certificación de Windows",
+        "Host": "Anfitriona",
+        "CA Name": "Nombre de CA",
+        "Username": "Nombre de usuario",
+        "Password": "Contraseña",
+        "Domain": "Dominio",
+        "WorkStation": "Puesto de trabajo"
+      }
+    },
+    "Login": {
+      "Title": "Acceso",
+      "Cap Lock Text": "Bloqueo de mayúsculas está activado!",
+      "User Name": {
+        "Title": "Usuario",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Se requiere nombre de usuario.",
+            "Only Alpha-Numeric": "Sólo caracteres alfanuméricos son permitidos."
+          }
+        }
+      },
+      "Password": {
+        "Title": "Contraseña",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "El campo de contraseña no puede estar vacía."
+          }
+        }
+      },
+      "Button Text": {
+        "Title": "Acceso"
+      }
+    },
+    "Home": {
+      "Cards": {
+        "Invisipoint Client": {
+          "Title": "Cliente punto invisible"
+        },
+        "Invisipoint Enforcer": {
+          "Title": "Ejecutor punto invisible"
+        },
+        "Iem": {
+          "Title": "IEM"
+        },
+        "Active Directory Dia": {
+          "Title": "Directorio Activo DIA"
+        },
+        "Invisigate": {
+          "Title": "Invisigate"
+        },
+        "Controller": {
+          "Title": "Controlador"
+        }
+      }
+    },
+    "Invisipoint": {
+      "Certificate Title": "Configuración de certificados",
+      "Invisipoint Title": "Configuración de punto invisible",
+      "Country": {
+        "Title": "País",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "País es un campo obligatorio.",
+            "Country Should Be": "El nombre del país debe ser `ISO 3166-1 alfa-2` (`US` o `IN`)"
+          }
+        }
+      },
+      "State Or Providence": {
+        "Title": "Nombre del estado/provincia",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Estado o Providencia es un campo obligatorio."
+          }
+        }
+      },
+      "Locality Name": {
+        "Title": "Nombre de la localidad",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La localidad es un campo obligatorio."
+          }
+        }
+      },
+      "Organization Name": {
+        "Title": "Nombre de la Organización",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La organización es un campo obligatorio."
+          }
+        }
+      },
+      "Organization Unit Name": {
+        "Title": "Nombre Unidad Organizacional",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La unidad organizacional es un campo obligatorio."
+          }
+        }
+      },
+      "Email Address": {
+        "Title": "Dirección de correo electrónico",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Invalid": "El correo electrónico es invalido"
+          }
+        }
+      },
+      "Check Box": {
+        "Title": "Le gustaría inscribirse en un Invisigate/Controller?"
+      },
+      "Invisigate Ip": {
+        "Title": "Invisigate/Controlador  (FQDN/Dirección IP)",
+        "Validations": {
+          "Errors": {
+            "Select Invisigate": "Por favor seleccione invisigate dirección IP"
+          }
+        }
+      },
+      "Enabled": {
+        "Title": "Activado",
+        "Validations": {
+          "Errors": {
+            "Select Option": "Activado es un campo obligatorio"
+          }
+        }
+      },
+      "Groups": {
+        "Title": "Grupos",
+        "Validations": {
+          "Errors": {
+            "Select Option": "Grupos es un campo obligatorio."
+          }
+        }
+      },
+      "Location": {
+        "Title": "Ubicación",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Ubicación es un campo obligatorio."
+          }
+        }
+      },
+      "Algorithm": {
+        "Title": "Algoritmo",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Algoritmo es un campo obligatorio."
+          }
+        }
+      },
+      "Timeout": {
+        "Title": "Tiempo de espera (Segundos)",
+        "Validations": {
+          "Errors": {
+            "Invalid": "Ingrese un tiempo de espera válido en segundos",
+            "Mandatory": "Tiempo de espera es un campo obligatorio.",
+            "Timeout Range": "El valor de tiempo de espera debe oscilar entre 3600 y 65534 (segundos)."
+          }
+        }
+      },
+      "Heartbeat Interval": {
+        "Title": "Intervalo de latidos (Segundos)",
+        "Validations": {
+          "Errors": {
+            "Invalid": "Intervalo de latidos debe ser un número válido.",
+            "Value Range": "El valor del intervalo de latido debe ser inferior a la mitad del valor del tiempo de espera.",
+            "Mandatory": "Intervalo de latidos es un campo obligatorio."
+          }
+        }
+      },
+      "Dir Fqdn": {
+        "Title": "DIR FQDN"
+      },
+      "Destination": {
+        "Title": "Destino",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Destino es un campo obligatorio."
+          }
+        }
+      },
+      "Tcp Tagging": {
+        "Title": "Etiquetado TCP",
+        "Validations": {
+          "Errors": {
+            "Select Option": "Por favor seleccione una opcion",
+            "Mandatory": "Etiquetado TCP es un campo obligatorio."
+          }
+        }
+      },
+      "Tac Mutual Auth": {
+        "Title": "Autorización mutua de TAC",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Autorización mutua de TAC es un campo obligatorio."
+          }
+        }
+      },
+      "UDP": {
+        "Title": "UDP",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "UDP es un campo obligatorio."
+          }
+        }
+      },
+      "Comment": {
+        "Title": "Comentarios",
+        "Validations": {
+          "Errors": {
+            "Must Atleast Character": "El campo de comentario debe tener al menos 4 caracteres",
+            "Must Not Exceed Character": "El campo de comentario no debe exceder los 64 caracteres"
+          }
+        }
+      }
+    },
+    "Invisigate Or Controller": {
+      "Custom SAN DNS": {
+        "Title": "SAN personalizado DNS",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "SAN personalizado DNS es un campo obligatorio",
+            "Invalid": "{{dns}} es inválido"
+          }
+        },
+        "Tool Tip": {
+          "Title": "Etiquetas SAN compatibles:<1/><2>DNS - para FQDN o hostname</2>",
+          "Example": "e.j. company.example.com <1 />e.j. company.one.com, company.two.com"
+        }
+      },
+      "Custom SAN IP": {
+        "Title": "SAN personalizado IP",
+        "Validations": {
+          "Errors": {
+            "Invalid": "{{ip}} es inválido"
+          }
+        },
+        "Tool Tip": {
+          "Title": "Etiquetas SAN compatibles:<1/><2>IP  - para IPv4 o IPv6</2>",
+          "Example": "e.j. 255.255.255.255<1 /> e.j.255.255.255.255, 8.8.8.8"
+        }
+      }
+    },
+    "Configure CSR Defaults": {
+      "Configure CSR Title": "Configurar valores predeterminados de CSR",
+      "Client Fqdn Suffix": {
+        "Title": "Sufijo FQDN del usuario",
+        "Tool Tip": {
+          "Title": "La dirección electronica de la puerta de enlace debe ser cualquiera de las siguientes:",
+          "List": {
+            "Fqdn Example": "Nombre de dominio totalmente calificado válido <0>(FQDN)</0> Desinencia como <1>invisinet.com</1>."
+          }
+        },
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Sufijo FQDN del usuario es un campo obligatorio",
+            "Invalid": "Sufijo FQDN del usuario es inválido"
+          }
+        }
+      },
+      "Country": {
+        "Title": "País",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "País es un campo obligatorio.",
+            "Country Should Be": "El nombre del país debe ser `ISO 3166-1 alfa-2` (`US` o `IN`)"
+          }
+        }
+      },
+      "State Or Providence": {
+        "Title": "Nombre del estado/provincia",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Estado o Providencia es un campo obligatorio."
+          }
+        }
+      },
+      "Locality Name": {
+        "Title": "Nombre de la localidad",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La localidad es un campo obligatorio."
+          }
+        }
+      },
+      "Organization Name": {
+        "Title": "Nombre de la Organización",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La organización es un campo obligatorio."
+          }
+        }
+      },
+      "Organization Unit Name": {
+        "Title": "Nombre Unidad Organizacional",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "La unidad organizacional es un campo obligatorio."
+          }
+        }
+      },
+      "Email Address": {
+        "Title": "Dirección de correo electrónico",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Invalid": "El correo electrónico es invalido"
+          }
+        }
+      },
+      "Prompt Message": {
+        "Form Change To Proceed": {
+          "Type": "warning",
+          "Topic": "Make Change To Proceed",
+          "Message": "Modify the exisiting configuration in order to `Submit`"
+        }
+      }
+    },
+    "Error Page": {
+      "Support Btn": "Soporte Tecnico",
+      "Error 401": {
+        "Title": "Lo sentimos, solo el administrador puede acceder a esta página"
+      },
+      "Error 404": {
+        "Title": "Lo sentimos, no pudimos encontrar la página que solicitó."
+      },
+      "Error Detail": {
+        "Head": "Oops!",
+        "Content": "Lo sentimos, se ha producido un error inesperado."
+      },
+      "Error Boundary": {
+        "Head": "Something went wrong..!",
+        "Content": {
+          "Message Para": "Looks like we hit a snag..! Our sincerest apologies for the inconvenience. Please try again by refreshing the page. The errors we found are shown below!",
+          "Contact Support": "Contact support if the problem persists."
+        }
+      }
+    }
+  }
+}

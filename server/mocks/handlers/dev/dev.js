@@ -1,0 +1,13 @@
+import { rest } from "msw";
+import { handleArrayBuffer } from "server/utils/handleArrayBuffer";
+import { payload } from "./payload";
+
+export default function dev() {
+  const URL = `${window.location.origin}/certificate/download/trustLevel`;
+
+  return rest.post(URL, (req, res, ctx) => {
+    const { customerName, fqdn, customSAN, csr } = handleArrayBuffer(req);
+
+    return res(ctx.status(200), ctx.json(payload));
+  });
+}

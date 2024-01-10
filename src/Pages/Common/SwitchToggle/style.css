@@ -1,0 +1,7 @@
+.MuiSwitch-root {
+  margin: 0 8px !important;
+}
+
+.MuiSwitch-thumb {
+  box-shadow: none !important;
+}

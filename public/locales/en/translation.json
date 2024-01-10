@@ -1,0 +1,476 @@
+{
+  "Welcome to React": "Welcome to React and react-i18next",
+  "footer": {
+    "copyRightsMessage": "All Rights Reserved"
+  },
+  "Common": {
+    "Certificate Management Text": "Certificate Management",
+    "Cap Lock Text": "Caps Lock is On!",
+    "Alert Message": {
+      "Error": {
+        "Topic": "Session Expired or Not Authorized",
+        "Message": "User will be redirected to login page"
+      }
+    },
+    "Components": {
+      "File Upload": {
+        "Title": "Import CSR or Text File",
+        "Active Drop": "Drop your files",
+        "File Neutral": {
+          "Size Limit": "Size Limit: 60 MB",
+          "File Type": "Drop the <1>.csr</1> or <2>.txt</2> file"
+        },
+        "File Ok Details": {
+          "File Info Text": "The {{fileName}}.{{extention}} is Selected",
+          "File Size Text": "File Size : {{fileSize}}"
+        },
+        "File Format Error": {
+          "File Info Text": "The file format <1>.{{error}}</1>  is not allowed!",
+          "File Extention Text": "Expected Format: <1>.csr</1>"
+        },
+        "File Size Error": {
+          "File Info Text": "The file size is larger than the limit.",
+          "Upload File Size": "Uploaded File Size: {{fileSize}}",
+          "Size Limit": "Size Limit: 60 MB"
+        },
+        "Multi File Error": {
+          "Drop File Text": "Drop your files",
+          "Multi File Not Allow": "Multiple file upload is not allowed",
+          "Single File Type": "Single File with <1>.csr</1> or <2>.txt</2> Format"
+        },
+        "Button Text": {
+          "Select File Text": "Select File",
+          "Select Different File Text": "Select Different File"
+        }
+      }
+    },
+    "Fields": {
+      "Customer Name": {
+        "Title": "Username",
+        "Tool Tip": "Do not add any spaces. The tool will not break and your certificate will be generated but not displayed to you.",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Username is a mandatory field.",
+            "Must Atleast Character": "Username must be atleast 4 characters",
+            "Must Not Exceed Character": "Username must not exceed 64 characters",
+            "Alaphanumeric Character": "Value Should be Alphanumeric characters and No Space are allowed."
+          }
+        }
+      },
+      "Client Fqdn": {
+        "Title": "User FQDN",
+        "Tool Tip": {
+          "Title": "Gateway address must be any one of the following:",
+          "List": {
+            "Fqdn Example": "Valid Fully Qualified Domain Name <0>(FQDN)</0> such as <1>invisinet.client-name.com</1>."
+          }
+        },
+        "Validations": {
+          "Errors": {
+            "Mandatory": "User FQDN is a mandatory field.",
+            "Invalid": "User FQDN is invalid"
+          }
+        }
+      }
+    },
+    "Button Generic": {
+      "Btn Reset": "Reset",
+      "Btn Submit": "Submit"
+    }
+  },
+  "Navigation": {
+    "Home": {
+      "Title": "Home"
+    },
+    "Certificate Authority Configuration": {
+      "Title": "Certificate Authority Configuration"
+    },
+    "Invisipoint Client": {
+      "Title": "Invisipoint Client"
+    },
+    "Invisipoint Enforcer": {
+      "Title": "Invisipoint Enforcer"
+    },
+    "IEM": {
+      "Title": "IEM"
+    },
+    "Active Directory Dia": {
+      "Title": "Active Directory DIA"
+    },
+    "Invisigate": {
+      "Title": "Invisigate"
+    },
+    "Controller": {
+      "Title": "Controller"
+    },
+    "Invisigate Or Controller": {
+      "Title": "Invisigate/Controller"
+    },
+    "Configure CSR": {
+      "Title": "Configure CSR Defaults"
+    },
+    "Manage Invisipoints": {
+      "Title": "Manage Invisipoints"
+    },
+    "Manage Users": {
+      "Title": "Manage Users"
+    }
+  },
+  "Pages": {
+    "Certificate Authority Configuration": {
+      "Title": "Certificate Authority Configuration",
+      "Toggle Title": "Generate certificate using: ",
+      "Private Key Label": "Private Key Infrastructure",
+      "Windows CA Label": "Windows Certificate Authority",
+      "Windows CA Form": {
+        "Note To User": "*Please provide additional configurations for Windows Certificate Authority",
+        "Host": "Host",
+        "CA Name": "CA Name",
+        "Username": "Username",
+        "Password": "Password",
+        "Domain": "Domain",
+        "WorkStation": "WorkStation"
+      }
+    },
+    "Login": {
+      "Title": "Login",
+      "Cap Lock Text": "Caps Lock is On!",
+      "User Name": {
+        "Title": "Username",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Username is required.",
+            "Only Alpha-Numeric": "Only alpha-numeric characters are allowed."
+          }
+        }
+      },
+      "Password": {
+        "Title": "Password",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Password can't be empty."
+          }
+        }
+      },
+      "Button Text": {
+        "Title": "Log In"
+      }
+    },
+    "Home": {
+      "Cards": {
+        "Invisipoint Client": {
+          "Title": "Invisipoint Client"
+        },
+        "Invisipoint Enforcer": {
+          "Title": "Invisipoint Enforcer"
+        },
+        "Iem": {
+          "Title": "IEM"
+        },
+        "Active Directory Dia": {
+          "Title": "Active Directory DIA"
+        },
+        "Invisigate": {
+          "Title": "Invisigate"
+        },
+        "Controller": {
+          "Title": "Controller"
+        }
+      }
+    },
+    "Invisipoint": {
+      "Certificate Title": "Certificate Configuration",
+      "Invisipoint Title": "Invisipoint Configuration",
+      "Country": {
+        "Title": "Country",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Country is a mandatory field.",
+            "Country Should Be": "Country name should be `ISO 3166-1 alpha-2` (`US` or `IN`)"
+          }
+        }
+      },
+      "State Or Providence": {
+        "Title": "State / Province Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "State or Providence is a mandatory field."
+          }
+        }
+      },
+      "Locality Name": {
+        "Title": "Locality Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Locality is a mandatory field."
+          }
+        }
+      },
+      "Organization Name": {
+        "Title": "Organization Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Organization is a mandatory field."
+          }
+        }
+      },
+      "Organization Unit Name": {
+        "Title": "Organizational Unit Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Organizational unit is a mandatory field."
+          }
+        }
+      },
+      "Email Address": {
+        "Title": "Email Address",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Invalid": "Email is invalid"
+          }
+        }
+      },
+      "Check Box": {
+        "Title": "Would you like to enroll into a Invisigate/Controller?"
+      },
+      "Invisigate Ip": {
+        "Title": "Invisigate/Controller (FQDN/IP Address)",
+        "Validations": {
+          "Errors": {
+            "Select Invisigate": "Please select invisigate IP address"
+          }
+        }
+      },
+      "Enabled": {
+        "Title": "Enabled",
+        "Validations": {
+          "Errors": {
+            "Select Option": "Please select one option"
+          }
+        }
+      },
+      "Groups": {
+        "Title": "Groups",
+        "Validations": {
+          "Errors": {
+            "Select Option": "Please select one option"
+          }
+        }
+      },
+      "Location": {
+        "Title": "Location",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Location is a mandatory field."
+          }
+        }
+      },
+      "Algorithm": {
+        "Title": "Algorithm",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Algorithm is a mandatory field."
+          }
+        }
+      },
+      "Timeout": {
+        "Title": "Timeout (Seconds)",
+        "Validations": {
+          "Errors": {
+            "Invalid": "Please enter valid timeout in seconds",
+            "Mandatory": "Timeout is a mandatory field.",
+            "Timeout Range": "Timeout value should range from 3600 to 65534 (seconds)."
+          }
+        }
+      },
+      "Heartbeat Interval": {
+        "Title": "Heartbeat Interval (Seconds)",
+        "Validations": {
+          "Errors": {
+            "Invalid": "Heartbeat Interval must be a valid number.",
+            "Value Range": "Heartbeat Interval value should be less than half of Timeout value.",
+            "Mandatory": "Heartbeat Interval is a mandatory field."
+          }
+        }
+      },
+      "Dir Fqdn": {
+        "Title": "DIR FQDN"
+      },
+      "Destination": {
+        "Title": "Destination",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Destination is a mandatory field."
+          }
+        }
+      },
+      "Tcp Tagging": {
+        "Title": "TCP Tagging",
+        "Validations": {
+          "Errors": {
+            "Select Option": "Please select one option",
+            "Mandatory": "TCP Tagging is a mandatory field."
+          }
+        }
+      },
+      "Tac Mutual Auth": {
+        "Title": "TAC Mutual Auth",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "TAC Mutual Auth is a mandatory field."
+          }
+        }
+      },
+      "UDP": {
+        "Title": "UDP",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "UDP is a mandatory field."
+          }
+        }
+      },
+      "Comment": {
+        "Title": "Comments",
+        "Validations": {
+          "Errors": {
+            "Must Atleast Character": "Comment field must be at least 4 characters",
+            "Must Not Exceed Character": "Comment field must not exceed 64 characters"
+          }
+        }
+      }
+    },
+    "Invisigate Or Controller": {
+      "Custom SAN DNS": {
+        "Title": "Custom SAN DNS",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Custom SAN DNS is a mandatory field.",
+            "Invalid": "{{dns}} is invalid"
+          }
+        },
+        "Tool Tip": {
+          "Title": "Supported SAN Tags:<1/><2>DNS - for FQDN or hostname</2>",
+          "Example": "e.g. company.example.com <1 />e.g. company.one.com, company.two.com"
+        }
+      },
+      "Custom SAN IP": {
+        "Title": "Custom SAN IP",
+        "Validations": {
+          "Errors": {
+            "Invalid": "{{ip}} is invalid"
+          }
+        },
+        "Tool Tip": {
+          "Title": "Supported SAN Tags:<1/><2>IP  - for IPv4 or IPv6</2>",
+          "Example": "e.g. 255.255.255.255<1 /> e.g.255.255.255.255, 8.8.8.8"
+        }
+      }
+    },
+    "Configure CSR Defaults": {
+      "Configure CSR Title": "Configure CSR Defaults",
+      "Client Fqdn Suffix": {
+        "Title": "User FQDN Suffix",
+        "Tool Tip": {
+          "Title": "Gateway address must be any one of the following:",
+          "List": {
+            "Fqdn Example": "Valid Fully Qualified Domain Name <0>(FQDN)</0> Suffix such as <1>invisinet.com</1>."
+          }
+        },
+        "Validations": {
+          "Errors": {
+            "Mandatory": "User FQDN Suffix is a mandatory field.",
+            "Invalid": "User FQDN Suffix is invalid"
+          }
+        }
+      },
+      "Country": {
+        "Title": "Country",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Country is a mandatory field.",
+            "Country Should Be": "Country name should be `ISO 3166-1 alpha-2` (`US` or `IN`)"
+          }
+        }
+      },
+      "State Or Providence": {
+        "Title": "State / Province Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "State or Providence is a mandatory field."
+          }
+        }
+      },
+      "Locality Name": {
+        "Title": "Locality Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Locality is a mandatory field."
+          }
+        }
+      },
+      "Organization Name": {
+        "Title": "Organization Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Organization is a mandatory field."
+          }
+        }
+      },
+      "Organization Unit Name": {
+        "Title": "Organizational Unit Name",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Mandatory": "Organizational unit is a mandatory field."
+          }
+        }
+      },
+      "Email Address": {
+        "Title": "Email Address",
+        "Tool Tip": "",
+        "Validations": {
+          "Errors": {
+            "Invalid": "Email is invalid"
+          }
+        }
+      },
+      "Prompt Message": {
+        "Form Change To Proceed": {
+          "Type": "warning",
+          "Topic": "Make Change To Proceed",
+          "Message": "Modify the exisiting configuration in order to `Submit`"
+        }
+      }
+    },
+    "Error Page": {
+      "Support Btn": "Get Support",
+      "Error 401": {
+        "Title": "Sorry, only Administrator can access this page"
+      },
+      "Error 404": {
+        "Title": "Sorry we couldn't find the page you requested"
+      },
+      "Error Detail": {
+        "Head": "Oops!",
+        "Content": "Sorry, an unexpected error has occurred. 😅"
+      },
+      "Error Boundary": {
+        "Head": "Something went wrong..!",
+        "Content": {
+          "Message Para": "Looks like we hit a snag..! Our sincerest apologies for the inconvenience. Please try again by refreshing the page. The errors we found are shown below!",
+          "Contact Support": "Contact support if the problem persists."
+        }
+      }
+    }
+  }
+}

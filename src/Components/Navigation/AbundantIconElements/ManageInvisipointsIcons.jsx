@@ -1,0 +1,58 @@
+export function ManageInvisipointsIcons() {
+  return (
+    <svg
+      width="22"
+      height="22"
+      id="Layer_1"
+      data-name="Layer 1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 15.26 15.33"
+    >
+      <defs></defs>
+      <path
+        fill="#fff"
+        strokeWidth={"8"}
+        d="m13.77,1.5v8.43H1.5V1.5h12.27m.76-1.5H.74c-.41,0-.74.33-.74.74v9.95c0,.41.33.74.74.74h13.78c.41,0,.74-.33.74-.74V.74c0-.41-.33-.74-.74-.74h.01Z"
+      />
+      <circle
+        fill="none"
+        stroke="#fff"
+        strokeWidth={"1.2"}
+        strokeLinejoin="round"
+        cx="8.97"
+        cy="5.58"
+        r="1.33"
+      />
+      <line
+        fill="none"
+        stroke="#fff"
+        strokeWidth={"1.2"}
+        strokeMiterlimit={"8"}
+        x1="14.97"
+        y1="5.58"
+        x2="10.97"
+        y2="5.58"
+      />
+      <line
+        fill="none"
+        stroke="#fff"
+        strokeWidth={"1.2"}
+        strokeMiterlimit={"8"}
+        x1="11.13"
+        y1="14.58"
+        x2="4.13"
+        y2="14.58"
+      />
+      <line
+        fill="none"
+        stroke="#fff"
+        strokeWidth={"1.2"}
+        strokeMiterlimit={"8"}
+        x1="7.63"
+        y1="10.58"
+        x2="7.63"
+        y2="14.58"
+      />
+    </svg>
+  );
+}
